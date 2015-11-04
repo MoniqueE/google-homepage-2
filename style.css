@@ -1,0 +1,92 @@
+/*Use this code to see outlines of your boxes aka divs: * { border: 1px dashed gray;} */
+
+#element { margin:0; padding:0; font-size:100%; line-height:1; } /* css reset */
+
+#element { margin:5px 0 10px; font-size:13px; line-height:1.5; } /* element rules */
+
+body {
+     margin: 0;
+}
+
+.topnav {
+        height: 4em; /*height set to push down logo div. Use em so that it will work in all screen sizes*/
+        }
+.topnav li {
+         list-style: none; /* removes bullets from list */
+         display: inline; /* displays list vertically*/
+         padding: 10px; /*creates space between links to set them further apart*/
+         float: right; /* floats the links to the right of the page as a mirror image i.e. they appear in reverse compared to the html*/
+         }
+
+a {
+  text-decoration: none; /*removes default underline from links*/
+  font-family: arial;
+  font-size: 13px;
+  color: #575757;
+  }
+
+a:hover {
+        text-decoration: underline;
+        }
+
+#logon {
+       float: right; 
+       color: #ffffff;
+       margin-top: -5px;
+       margin-right: 1em;
+       background-color: #4285F4;
+       padding-left: 14px;
+       padding-right:14px;
+       padding-bottom: 6px;
+       padding-top: 6px;
+       border: 0;
+       font-weight: bolder;
+
+       }
+
+#logo {
+      text-align: center;
+      margin-top: 5%;
+      }
+
+input.searchbox { /*input and class were already defined so no need for a new div to target them*/
+                height: 3em;
+                }
+
+.searchbut {
+           width: 10em;
+           height: 2.5em;
+           border: 0;
+           color: #9B6B4A;
+           font-family: arial;
+           font-weight: bold;
+           margin-top: 2em; /*space between search box and buttons*/
+           margin-right: 8px; /*space between buttons*/
+           }
+
+.searchbut:hover { /*changes border and text color upon hover*/
+                 border: solid #C5C7C9 1px;
+                 color: #67300A;
+                 }
+
+footer  {
+        background-color: #F0F0F0;
+        position: fixed;
+        padding: 10px;
+        bottom: 0;
+        left: 0;
+        right: 0px;
+        height: 20px;
+        border-top: solid #C3C3C3 1px;
+        }
+
+#ftr_right {
+           float: right;
+           margin-right: 1em; /*distance from side of the screen*/
+           }
+
+
+#ftr_left {
+          float: left;
+          margin-left: 1em; /*distance from side of the screen*/
+          }
